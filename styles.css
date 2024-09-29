@@ -42,9 +42,11 @@ body {
     font-weight: bold;
 }
 
+/* first row */
+
 .header {
     display: flex;
-    flex-direction: column; /* Keep the button below */
+    flex-direction: column; /* Keep the button below top to bottom */
     padding: 20px;
     background-color: #f0f0f0;
     font-weight: bolder;
@@ -85,4 +87,14 @@ body {
     font-weight: bolder;
     cursor: pointer; /* Change cursor on hover */
     transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+/* second row */
+
+.path-one {
+    font-weight: bolder;
+}
+
+.path-two {
+    font-weight: bolder;
 }
