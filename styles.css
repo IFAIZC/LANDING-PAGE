@@ -91,10 +91,44 @@ body {
 
 /* second row */
 
+.second-row {
+    background-color: black;
+    padding-bottom: 250px;
+    padding-top: 100px;
+}
+
+.path {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin: 10px;
+    color: #f0f0f0;
+}
+
 .path-one {
     font-weight: bolder;
+    padding-right: 490px;
 }
 
 .path-two {
     font-weight: bolder;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 390px;
+}
+
+.spider-local {
+    width: 260px;
+    height: 250px;
+}
+
+.spider-multiverse {
+    width: 450px;
+    height: 250px;
 }
