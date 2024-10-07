@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    flex-wrap: wrap;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -93,8 +94,8 @@ body {
 
 .second-row {
     background-color: black;
-    padding-bottom: 250px;
-    padding-top: 100px;
+    padding: 100px;
+    color: #f0f0f0;
 }
 
 .path {
@@ -104,31 +105,43 @@ body {
     justify-content: center;
     font-size: 30px;
     margin: 10px;
-    color: #f0f0f0;
+    color: #dd1f1f;
 }
 
 .path-one {
     font-weight: bolder;
-    padding-right: 490px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .path-two {
     font-weight: bolder;
-}
-
-.images {
+    align-items: center;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    gap: 390px;
+    flex-direction: column;
 }
 
-.spider-local {
-    width: 260px;
-    height: 250px;
+.path-intro {
+    font-size: 50px;
+    font-weight: bolder;
+    color: #f0f0f0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
 }
 
-.spider-multiverse {
-    width: 450px;
-    height: 250px;
+.path-one p, .path-two p {
+    font-size: 18px;       /* Adjust the font size */
+    color: #ffffff;           /* Set the text color */
+    line-height: 1.2;      /* Set line spacing */
+    width: 50%;            /* Control the width of the paragraph */
+    margin: 20px auto 0;   /* Center the text and add space above */
+    padding: 10px;         /* Add some internal spacing */
+    text-align: justify;   /* Optional: Justify text for a cleaner look */
 }
+
+
